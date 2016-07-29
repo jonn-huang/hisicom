@@ -1,0 +1,86 @@
+body {
+	margin: 0px;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF9600;
+	text-decoration: underline;
+}
+
+a.px14 {
+	font-size: 14px;
+	font-weight: bold;
+	color: Black;
+	text-decoration: none;
+}
+
+.top{
+	font:9px/20px Microsoft Yahei;color:#fff;
+}
+
+a.px14:hover {
+	font-size: 14px;
+	color: #4D4D4D;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.logo {
+	background: url(../images/header.gif) repeat-x;
+	font-size: 23px;
+	font-weight: bold;
+	color: #000;
+}
+
+.tp {
+	margin: 20px;
+	padding: 10px;
+}
+
+.tp1 {
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.red14 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #AF0512;
+}
+
+.blue14 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #52A3D8;
+}
+
+.white {
+	color: #fff;
+}
+
+.img200 {
+	max-width: 200px;
+	width: 200px;
+	width: expression(document.body.clientWidth > 200 "200px" : "auto");
+	overflow: hidden;
+    border:1px solid #ddd;	
+    padding:5px;
+    cursor:pointer;
+}
+.img400 {
+	max-width: 620px;
+	width: 620px;
+	width: expression(document.body.clientWidth > 620 "620px" : "auto");
+	overflow: hidden;
+    padding:5px;
+    cursor:pointer;
+}
